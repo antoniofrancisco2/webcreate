@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,500&display=swap');
 
 :root {
     --cor1: #200e38;
@@ -74,9 +77,52 @@ section#texto {
 
 div#img {
     background-image: url(../imagens/contru.png);
-    margin-left: 20%;
+    margin-left: 16%;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 31%;
-    height: 55%;
+    width: 39%;
+    height: 63%;
+}
+
+section#pot {
+    text-align: center;
+    height: 20vh;
+}
+
+section#pot h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 30px;
+    margin: 20px;
+}
+
+section.portais {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 100vh;
+}
+
+div.img1 {
+    background-image: url(../imagens/portal.png);
+    margin-left: 16;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 39%;
+    height: 40%;
+}
+
+section.portais p {
+    padding-left: 50px;
+    padding-right: 10%;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 20px;
+}
+
+section.portais h1 {
+    color: #200e38;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 10%;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 30px;
 }
