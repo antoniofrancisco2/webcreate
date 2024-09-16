@@ -80,7 +80,7 @@ div#img {
     background-image: url(../imagens/contru.png);
     margin-left: -6%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     width: 94vh;
     height: 76vh;
 }
@@ -100,7 +100,7 @@ div.img0 {
     background-image: url(../imagens/ideação1.jpg);
     margin: auto;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     width: 70vh;
     height: 50vh;
 } 
@@ -116,14 +116,14 @@ div.img1 {
     background-image: url(../imagens/portal.png);
     margin-left: 5%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     width: 50vh;
     height: 26vh;
 }
 
 section.portais p {
-    padding-left: 60px;
-    padding-right: 0%;
+    padding-left: 40px;
+    padding-right: 4%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 110%;
 }
@@ -131,7 +131,7 @@ section.portais p {
 section.portais h1 {
     color: #200e38;
     padding: 10px;
-    padding-left: 60px;
+    padding-left: 40px;
     padding-right: 10%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
