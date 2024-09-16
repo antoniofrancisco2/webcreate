@@ -20,7 +20,7 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/*NAVEGAÇÃO*/
 nav ul {
     display: flex;
     align-items: center;
@@ -48,6 +48,7 @@ a:hover {
     text-decoration: underline;
     transition: 0.5s;
 }
+/*APRESENTÇÃO*/
 section#apresentacao {
     background-color: white;
     display: flex;
@@ -57,7 +58,7 @@ section#apresentacao {
 }
 
 #apresentacao h1, p {
-    padding: 5px 20px;
+    padding: 5px 43px;
 }
 
 section#texto {
@@ -65,35 +66,44 @@ section#texto {
 }
 
 #apresentacao h1 {
-    font-size: 60px;
-    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #apresentacao p {
-    font-family: 'Kanit', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 27px;
-    text-decoration: underline;
+    
 }
 
 div#img {
     background-image: url(../imagens/contru.png);
-    margin-left: 16%;
+    margin-left: -6%;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 39%;
-    height: 63%;
+    width: 94vh;
+    height: 76vh;
 }
-
+/*PORTAIS*/
 section#pot {
     text-align: center;
-    height: 20vh;
+    height: 70vh;
 }
 
 section#pot h1 {
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     margin: 20px;
 }
+
+div.img0 {
+    background-image: url(../imagens/ideação1.jpg);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70vh;
+    height: 50vh;
+} 
 
 section.portais {
     display: flex;
@@ -104,25 +114,25 @@ section.portais {
 
 div.img1 {
     background-image: url(../imagens/portal.png);
-    margin-left: 16;
+    margin-left: 5%;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 39%;
-    height: 40%;
+    width: 50vh;
+    height: 26vh;
 }
 
 section.portais p {
-    padding-left: 50px;
-    padding-right: 10%;
-    font-family: 'Source Sans 3', sans-serif;
-    font-size: 20px;
+    padding-left: 60px;
+    padding-right: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
 }
 
 section.portais h1 {
     color: #200e38;
     padding: 10px;
-    padding-left: 50px;
+    padding-left: 60px;
     padding-right: 10%;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
