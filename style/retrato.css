@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+div#imgg {
+    background-image: url(../imagens/contru.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 25px;
+    height: 50vh;
+}
+
+div#image22 {
+    background-image: url(../imagens/ideação1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 74vh;
+    height: 50vh;
+}
+
+div.img3 {
+    background-image: url(../imagens/portal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 74vh;
+    height: 26vh;
+}
+
+section.portais p {
+    padding-left: 19px;
+    padding-right: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+
+section.portais h1 {
+    color: #200e38;
+    padding: 10px;
+    padding-left: 19px;
+    padding-right: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}

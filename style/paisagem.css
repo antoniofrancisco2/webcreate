@@ -4,11 +4,11 @@
 
     div#img {
         background-image: url(../imagens/contru.png);
-        margin-left: -6%;
+        margin-left: 0%;
         background-repeat: no-repeat;
         background-size: contain;
-        width: 94vh;
-        height: 76vh;
+        width: 89vh;
+        height: 69vh;
     }
 
     div.img1 {
