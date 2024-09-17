@@ -20,6 +20,14 @@
         height: 26vh;
     }
 
+    div.img0 {
+        background-image: url(../imagens/ideação1.jpg);
+        margin: auto;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 70vh;
+        height: 50vh;
+    } 
 
 }
 

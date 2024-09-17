@@ -75,7 +75,7 @@ section#texto {
     font-size: 27px;
     
 }
-
+/*img*/
 
 /*PORTAIS*/
 section#pot {
@@ -89,14 +89,7 @@ section#pot h1 {
     margin: 20px;
 }
 
-div.img0 {
-    background-image: url(../imagens/ideação1.jpg);
-    margin: auto;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 70vh;
-    height: 50vh;
-} 
+/*img3*/
 
 section.portais {
     display: flex;
@@ -105,7 +98,7 @@ section.portais {
     height: 100vh;
 }
 
-
+/*img1*/
 
 section.portais p {
     padding-left: 40px;
