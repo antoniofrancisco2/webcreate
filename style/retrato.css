@@ -19,6 +19,8 @@ div#image22 {
 
 div.img3 {
     background-image: url(../imagens/portal.png);
+    margin-top: 10px;
+    margin-bottom: 20px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
