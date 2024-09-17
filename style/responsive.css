@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media  screen and (min-width: 768px) and (max-width: 992px) {
+/*@media  screen and (min-width: 768px) and (max-width: 992px) {*/
 
     div#img {
         background-image: url(../imagens/contru.png);
@@ -29,7 +29,7 @@
         height: 50vh;
     } 
 
-}
+
 
 
 
