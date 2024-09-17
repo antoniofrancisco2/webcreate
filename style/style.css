@@ -76,14 +76,7 @@ section#texto {
     
 }
 
-div#img {
-    background-image: url(../imagens/contru.png);
-    margin-left: -6%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 94vh;
-    height: 76vh;
-}
+
 /*PORTAIS*/
 section#pot {
     text-align: center;
@@ -112,14 +105,7 @@ section.portais {
     height: 100vh;
 }
 
-div.img1 {
-    background-image: url(../imagens/portal.png);
-    margin-left: 5%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 50vh;
-    height: 26vh;
-}
+
 
 section.portais p {
     padding-left: 40px;

@@ -1,6 +1,37 @@
 @charset "UTF-8";
 
-@media  screen and (min-width: 500px) and (max-width: 768px){
+@media  screen and (min-width: 768px) and (max-width: 992px) {
+
+    div#img {
+        background-image: url(../imagens/contru.png);
+        margin-left: -6%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 94vh;
+        height: 76vh;
+    }
+
+    div.img1 {
+        background-image: url(../imagens/portal.png);
+        margin-left: 5%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 50vh;
+        height: 26vh;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+/*@media  screen and (min-width: 500px) and (max-width: 768px){
     div#img {
         display: none;
     }
@@ -25,4 +56,4 @@
         font-size: 110%;
     }
     
-}
+}*/
