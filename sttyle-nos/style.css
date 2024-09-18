@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #200e38;
+    --cor2: #6a0e47;
+    --cor3: #b50d57;
+    --cor4: #ff0d66;
+    --cor5: #fcfaf6;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    margin: 30px 100px 50px 100px;
+}
+
+section h1 {
+    color: var(--cor1);
+}
+
+footer.rodape {
+    background-color: #200e38;
+    color: white;
+    text-align: center;
+    padding: 17px;
+}
