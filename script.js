@@ -15,3 +15,11 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
+
+document.getElementById("meuFormulario").addEventListener("submit", function(event){
+    // Prevenir o envio padrão do formulário
+    event.preventDefault();
+  
+    // Redirecionar para outra página
+    window.location.href = "../index.html";
+  });
